@@ -1,0 +1,18 @@
+.group {
+  &:not(:last-child) {
+    margin-bottom: 2px;
+  }
+}
+.number-field__input {
+  border: none;
+  background-color: #ebebeb;
+  padding: 10px;
+  outline: none;
+}
+
+.currencies__select {
+  border: none;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}

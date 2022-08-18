@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  &__logo {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__group {
+    padding: 5px;
+  }
+}
